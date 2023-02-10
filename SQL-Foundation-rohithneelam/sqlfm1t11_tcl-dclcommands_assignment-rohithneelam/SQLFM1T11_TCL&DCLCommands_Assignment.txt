@@ -1,0 +1,24 @@
+Consider 2 tables – Bank and Customer Table and write the queries for the following:
+Bank Table:
+Bank_id	BankName	Acc_no	Amount		Branch
+102	SBI		110239	50326950	Hyderabad
+103	ICICI		110365	65055365	Vijayawada
+107	IDBI		110347	64406250	Nellore
+105	PNB		110156	45203530	Hyderabad
+106	ICICI		110011	36956255	Vijayawada
+
+Customer Table:
+c_id	cname	Acc_no	Amount	Bank_id
+1	Deeyan	001133	500000	102
+3	Ayaan	003624	623000	105
+6	Haiyathi	001256	856200	106
+7	Vedanth	006230	301650	106
+5	Muskan	009628	690000	107
+
+1. Write a query to start a transaction where ICICI bank should be credited with 50% of amount from Haiyathi’s account.
+2. Write a query to start a transaction that all the customers should be credited with 10.6% bonus to their account from the SBI and PNB banks.
+3. Write a query to save both the transactions and display all the fields from both the tables.
+4. Write a query to uncommit the transaction where all the customers who got 10.6% of bonus to their account from the SBI and PNB banks.
+
+
+Note: Kindly check submit your queries with screenshots of the outputs (in image format). 

@@ -1,0 +1,17 @@
+Consider a Student table and write the queries for the following:
+Student Table:
+Student_Id	SName	    Age	  Email_Id			      Gender	  Address
+1		        Vijay 	  10	  vijay@gmail.com		  Male	    Chittoor
+2		        Kamala	  11	  kamala@gmail.com		Female	  Nellore
+3		        Gayathri  9	    gayathri@gmail.com	Female	  Guntur
+4		        Rakesh	  11	  rakesh@gmail.com		Male	    Vijayawada
+5		        Lakshmi	  12	  lakshmi@gmail.com	  Female	  Nellore
+
+1. Write a query to select student names from Student table whose age is greater than 10.
+2. Write a query to update sname as ‘Vikas’ of Student table where student_id is 4.
+3. Write a query to select all columns of Student table where student_id is from 1 to 3
+4. Write the query to delete the records from Student table whose sname contains ‘V’.
+
+Note: Kindly check submit your queries with screenshots of the outputs (in image format). 
+
+

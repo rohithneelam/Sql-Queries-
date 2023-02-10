@@ -1,0 +1,39 @@
+Consider 3 tables – Salespeople, Customer, and Orders tables and write the queries for the following.
+Salespeople Table:
+SNUM	SNAME	CITY	COMM
+1001	Peel	London	0.12
+1002	Serres	San Jose	0.13
+1004	Motika	London	0.11
+1007	Rifkin	Barcelona	0.15
+1003	AxelRod	New York	0.10
+1005	Fran	London	0.26
+
+Customer Table:
+CNUM	CNAME	CITY	RATING	SNUM
+2001	Hoffman	London	100	1001
+2002 	Giovanni	Rome	200	1003
+2003 	Liu	San Jose	200	1002
+2004 	Grass	Berlin	300	1002
+2006 	Clemens	London	100	1001
+2008 	Cisneros	San Jose	300	1007
+2007 	Pereira	Rome	100	1004
+
+Orders Table:
+ONUM	AMT	ODATE	CNUM
+3001	18.69	10/03/96	2008
+3003	767.19	10/03/96	2001
+3002	1900.10	10/03/96	2007
+3005	5160.45 	10/03/96	2003
+3006	1098.16 	10/03/96	2008
+3009	1713.23 	10/04/96	2002
+3007	75.75 	10/04/96	2002
+3008	4723.00 	10/05/96	2006
+3010	1309.95 	10/06/96	2004
+3011	9891.88 	10/06/96	2006
+
+1. Write a query that produces all pairs of salespeople with themselves as well as duplicate rows with the order reversed.
+2. Write a query that joins the Customer table to itself to find all pairs of customers served by a single salesperson.
+3. Write a query that lists each order number followed by the name of the customer who made that order.
+4. Write a query to create a view with order num, order amount, customer id and customer name, and display all the fields whose order amount is highest from the view table.
+
+Note: Kindly check submit your queries with screenshots of the outputs (in image format). 

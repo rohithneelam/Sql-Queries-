@@ -1,0 +1,11 @@
+Write All the SQL queries for below Questions and submit your assignment.
+
+1.Write a SQL query to create a table called Employee that contains five columns as emp_id,emp_name,emp_dept,emp_phoneno,emp_address.
+
+2.Write a SQL  query to add the new column as joining_date in Employee table.
+
+3.Write a SQL query to change the datatype of a emp_phoneno in Employee table.
+
+4.Write a SQL query to delete the data inside the Employee table,but not table itself.
+
+5.Write a SQL query to drop a emp_phoneno from employee table.

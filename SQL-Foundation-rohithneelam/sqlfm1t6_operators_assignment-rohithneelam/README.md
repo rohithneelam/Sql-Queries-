@@ -1,0 +1,1 @@
+# SQLFM1T6_Operators_Assignment

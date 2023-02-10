@@ -1,0 +1,29 @@
+Write All the SQL queries for below Questions and submit your assignment.
+
+1.Write a SQL query to create a table called Employee that contains five columns as emp_id,emp_name,emp_dept,emp_phoneno,emp_address and apply not null constraint on emp_phoneno, emp_dept and primary key constraint on emp_id columns.
+
+2.Write a SQL query to create a table called Salespeople that contains four columns as sid,sname,city,mobile and apply primary key constraint on sid and unique constraint on mobile number columns.
+
+3. Write a SQL query to create a table called orders that contains four columns as oid,order_amt,Order_date,customer_id and apply following constraints.
+ a. Primary key constraint on oid 
+ b. Not null constraint on order_date
+ c. unique key constraint on customer_id
+ d. set default order_amt is 0(zero), if user does not enter order_amt then zero should be inserted.
+
+4. Write a SQL queries to create two tables called Salespeople and customer with following columns
+
+   Salespeople:
+     Snum,Sname,city and mobile
+   Customer:
+     cid,cname, city, rating and Snum
+   a. make Snum as foreign key in customer table.
+
+
+5. Write a SQL query to create a table called Students with five columns like
+    Sid, sname, city, marks, mobile
+
+    a. Apply primary key constraint on Sid
+    b. marks coloumn should allow more than 60 score, add constraint for marks column
+
+  
+
